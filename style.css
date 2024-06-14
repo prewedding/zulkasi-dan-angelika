@@ -97,6 +97,7 @@ body {
   margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
+  /* height: 10rem; */
 }
 
 .countdownbox {
@@ -411,7 +412,7 @@ footer li {
 }
 
 .container2 {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 25px;
   background-color: #E2D7D1;
@@ -423,12 +424,14 @@ footer li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* max-width: max-content; */
+  /* width: 250px; */
 }
 
 .bg-photo-1 {
   background-image: url('img/wanita.jpg');
   /* Ganti dengan path ke gambar Anda */
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,17 +441,18 @@ footer li {
   align-items: flex-end;
   font-family: Arial, sans-serif;
 
-  min-height: 100vh;
+  min-height: 50vh;
   margin-top: 0rem;
   padding-top: 15rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   border-radius: 25px;
 }
 
 .bg-photo-2 {
   background-image: url('img/pria.jpg');
   /* Ganti dengan path ke gambar Anda */
-  height: 100%;
+  /* height: 100%;
+  width: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,16 +462,17 @@ footer li {
   align-items: flex-end;
   font-family: Arial, sans-serif;
 
-  min-height: 100vh;
+  min-height: 50vh;
+  min-width: 35vh;
   margin-top: 0rem;
   padding-top: 15rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   border-radius: 25px;
 }
 
 .text-photo {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   /* Tambahkan background semi-transparan untuk teks agar lebih mudah dibaca */
   padding: 10px;

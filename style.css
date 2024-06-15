@@ -804,3 +804,16 @@ footer li {
     background-image: url(img/WhatsApp\ Image\ 2024-06-14\ at\ 15.53.27_2811021e.jpg);
   }
 }
+
+.home-3 {
+  min-height: 50vh;
+  margin-top: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #928686;
+  font-family: 'Alata';
+}
+
+.home-3 h2 {
+  font-size: 1.5rem;
+}
